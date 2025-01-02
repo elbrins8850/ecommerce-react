@@ -1,0 +1,23 @@
+@media  screen and (max-width: 426px) {
+
+p{
+    font-size: 8px;
+
+}
+img{
+    width: 5px;
+}
+
+}
+
+@media  screen and (max-width: 426px) {
+
+p{
+    font-size: 6px;
+
+}
+img{
+    width: 3px;
+}
+
+}

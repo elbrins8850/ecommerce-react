@@ -1,0 +1,30 @@
+.content-short{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.content-short p span{
+    display: block;
+} 
+.content-short p{
+    font-size: 20px;
+    font-weight: normal;
+}
+.content-short .right{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.CategoryProduct{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+}
+.ShopCategory  .img{
+    width: 100%;
+}

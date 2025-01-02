@@ -1,0 +1,78 @@
+.footer .logo p {
+    margin-top: 20px;
+    font-size: 30px;
+     font-weight: normal !important;
+    color: black !important; 
+}
+.footer{
+    margin: 20px;
+}
+.footer .alll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer .alll .logo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;    
+}
+.footer .alll .logo img{
+    width: 100px;
+}
+
+.footer .alll .Links_icon  ul{
+    text-align: center;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+.footer .alll .Links_icon ul a{
+    color: #222;
+    cursor: pointer;
+}
+.footer .alll .Links_icon .icon {
+    margin: 30px ;
+}
+.footer .alll .Links_icon .icon a {
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: 8px;
+        margin: 15px;
+}
+@media  screen and (max-width: 37px) {
+    .footer .alll .Links_icon .icon  {
+        display: flex;
+    }
+    .footer .alll .Links_icon ul a{
+        font-size: 10px;
+    }
+    .copyright p{
+        font-size: 14px;
+    }
+}
+@media  screen and (max-width: 321px) {
+    .footer .alll .Links_icon .icon  a img{
+        width: 20px;
+    }
+        .footer .alll .Links_icon .icon  a{
+        margin: 4px;
+    }
+  .footer .alll .Links_icon ul {
+        margin: -14px 0;
+}
+    .footer .alll .Links_icon ul a{
+        font-size: 8px;
+    }
+    .copyright p{
+        font-size: 11px;
+    }
+}

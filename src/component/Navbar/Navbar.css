@@ -1,0 +1,148 @@
+a {
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+.allpage {
+    padding: 10px;
+}
+
+.scoundpage {
+    padding: 15px 0;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header p {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: normal !important;
+    color: black !important;
+}
+
+.color {
+    color: black !important;
+
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.all ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.all ul li a {    
+    color: black;
+}
+
+.all ul li a hr {
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #e93131;
+    opacity: 1 !important;
+
+}
+
+.all .links {
+    margin: auto;   
+    padding: 15px;
+}
+
+ .bttn {
+    width: 150px ;
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #626262;
+    color: #000000 !important;
+}
+
+.bttn:active {
+    background-color: #626262;
+}
+
+.three-cont {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+
+}
+
+.three-cont .icon-cart {
+    display: flex;
+    align-items: center;
+}
+
+.three-cont .nav-cart-count {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -29px;
+    margin-left: -11px;
+    border-radius: 11px;
+    font-size: 14px;
+    background-color: red;
+    color: #fff;
+}
+
+@media  screen and (max-width: 2000px) {
+    .scoundpage header .alla{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+}
+
+@media  screen and (max-width: 1025px) {
+    .scoundpage header .alla{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+
+    }
+    .scoundpage img{
+        width: 80px;
+    }
+    .scoundpage p{
+        font-size: 25px;
+    }
+}
+
+@media  screen and (max-width: 769px) {
+    .scoundpage header .alla{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .scoundpage img{
+        width: 60px;
+    }
+    .scoundpage p{
+        font-size: 15px;
+    }
+}

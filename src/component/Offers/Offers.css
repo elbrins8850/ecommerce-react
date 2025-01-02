@@ -1,0 +1,82 @@
+.offers{
+    background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.offers .left{
+    padding: 0 30px;
+}
+.offers .left h1{
+    font-size: 60px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+.offers .left p{
+    font-size: 30px;
+}
+.offers .left Button{
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ff4141;
+}
+.offers .left Button a{
+    color: #fff;
+    font-size: 20px; 
+}
+.offers .right{
+    flex: 1;
+    width: 50%;
+    margin-left: 250px;
+}
+.offers .right img{
+    width: 350px;
+}
+
+@media  screen and (max-width: 1400px){
+    .offers{
+        
+        display: flex !important;
+        flex-wrap: nowrap !important;
+    }
+}
+@media  screen and (max-width: 769px) {
+    .offers .left{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+       }
+    .offers .left h1{
+        font-size: 30px;
+        font-weight: normal;
+        line-height: 1.4;
+    }
+    .offers .left p{
+        font-size: 20px;
+    }
+
+    .offers .right{
+    margin-left: 0;
+
+    }
+    .offers .right img{
+        width: 299px;
+    }
+
+}
+@media  screen and (max-width: 426px) {
+
+    .right img{
+        display: none;
+    }   
+    .offers .left Button{
+        padding: 10px;
+        width: 200px;
+        border: none;
+        border-radius: 25px;
+        background-color: #ff4141;
+    }
+}
