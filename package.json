@@ -17,8 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-  "predeploy": "npm run build",
-    "deploy": "GIT_SSH_COMMAND='ssh -i ~/.ssh/id_rsa' gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "cross-env GIT_SSH_COMMAND='ssh -i ~/.ssh/id_rsa' gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "cross-env": "^7.0.3",
     "gh-pages": "^6.3.0"
   }
 }
