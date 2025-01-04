@@ -8,7 +8,7 @@ const ShopCategory = (props) => {
   const {all_product} = useContext(ShopContext);
   return (
     <div className='ShopCategory' >
-      <img src={props.banner} alt='image' className='img'/>
+      <img src={props.banner} alt='lgo' className='img'/>
       <Container>
       <Row>
       <div className="content-short">

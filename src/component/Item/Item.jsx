@@ -8,7 +8,7 @@ const Item = (props) => {
       <Container>
         <Row className="item">
           <Link to={`/product/${props.id}`}>
-          <img src={props.iamge} alt="image" />
+          <img src={props.iamge} alt="SeeImage" />
           </Link>
           <p>{props.name}</p>
           <div className="item-price">

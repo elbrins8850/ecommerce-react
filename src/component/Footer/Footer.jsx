@@ -17,29 +17,29 @@ const Footer = () => {
           <Col className="Links_icon">
             <ul>
               <li>
-                <a href="#">Company</a>
+                <a href="#company">Company</a>
               </li>
               <li>
-                <a href="#">Products</a>
+                <a href="#Product">Products</a>
               </li>
               <li>
-                <a href="#">Offices</a>
+                <a href="#Offices">Offices</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#About">About</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="#Contact">Contact</a>
               </li>
             </ul>
             <div className="icon">
-              <a href="#">
+              <a href="#instagram">
                 <img src={instagram} alt="icon" />
               </a>
-              <a href="#">
+              <a href="#pintrest">
                 <img src={pintrest} alt="icon" />
               </a>
-              <a href="#">
+              <a href="#whatsapp">
                 <img src={whatsapp} alt="icon" />
               </a>
             </div>

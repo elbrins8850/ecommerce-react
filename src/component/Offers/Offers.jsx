@@ -10,10 +10,10 @@ const Offers = () => {
             <h1>Exclusive</h1>
             <h1>Offers For You</h1>
             <p>ONLY ON BEST SELERS PRODUCTS</p>
-            <Button><a href='#'>Check Now</a></Button>
+            <Button><a href='#checkout'>Check Now</a></Button>
         </Col>
         <Col  className='right'>
-            <img src={exclusive_image} alt='image'/>
+            <img src={exclusive_image} alt='background'/>
         </Col>
       </Row>
     </Container>
