@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "cross-env GIT_SSH_COMMAND='ssh -i ~/.ssh/id_rsa' gh-pages -d build",
+    "deploy": "cross-env GIT_SSH_COMMAND='ssh -i C:\\Users\\i-seven\\.ssh\\id_rsa' gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
