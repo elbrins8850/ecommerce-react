@@ -10,7 +10,7 @@ const NewsLetters = () => {
             <p> Subscribe to our newletter and stay update</p>
             <div>
                 <input type='email' placeholder='Your Email id'/>
-                <Button><a href='#'>Subscribe</a></Button>
+                <Button><a href='#Subscribe'>Subscribe</a></Button>
             </div>
         </Col>
     </Row>

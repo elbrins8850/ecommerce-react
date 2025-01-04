@@ -22,7 +22,7 @@ const Hero = () => {
                 </h1>
               </div>
               <button>
-                <a href="#">
+                <a href="#arrow_icon">
                   {" "}
                   Latest Collection{" "}
                   <img src={arrow_icon} alt="direction icon" />

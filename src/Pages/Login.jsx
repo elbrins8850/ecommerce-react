@@ -1,6 +1,6 @@
 import React from 'react'
 import './Style/Login.css'
-import { Container, Form, Row } from 'react-bootstrap'
+import { Container, Form } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 const Login = () => {
