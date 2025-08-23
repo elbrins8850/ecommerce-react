@@ -1,7 +1,7 @@
 import React from 'react'
 import './Src_product.css'
-import arrow_icon from '../assets/Assets/breadcrum_arrow.png'
 import { Container } from 'react-bootstrap'
+const arrow_icon = 'assets/breadcrum_arrow.png'
 const Src_product = (props) => {
     const product = props.product;
   return (

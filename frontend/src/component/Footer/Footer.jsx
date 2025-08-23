@@ -1,10 +1,10 @@
 import React from "react";
 import "./Footer.css";
 import { Col, Container, Row } from "react-bootstrap";
-import logo from "../assets/Assets/logo.png";
-import instagram from "../assets/Assets/instagram_icon.png";
-import pintrest from "../assets/Assets/pintester_icon.png";
-import whatsapp from "../assets/Assets/whatsapp_icon.png";
+const logo = "/assets/logo.png";
+const instagram = "/assets/instagram_icon.png";
+const pintrest = "/assets/pintester_icon.png";
+const whatsapp = "/assets/whatsapp_icon.png";
 const Footer = () => {
   return (
     <div className="footer">

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Offers.css'
 import { Button, Col, Container, Row } from 'react-bootstrap'
-import exclusive_image from'../assets/Assets/exclusive_image.png'
+const exclusive_image ='assets/exclusive_image.png'
 const Offers = () => {
   return (
     <Container >

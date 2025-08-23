@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./CartItems.css";
 import { Container } from "react-bootstrap";
 import { ShopContext } from "../../Context/ShopContext";
-import remove_icon from "../assets/Assets/cart_cross_icon.png";
+const remove_icon = "/assets/cart_cross_icon.png";
 const CartItems = () => {
   const {
       all_product,

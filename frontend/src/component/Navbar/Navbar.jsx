@@ -2,12 +2,12 @@
 import React, { useContext, useState } from "react";
 import "./Navbar.css";
 import { Nav, Container, Navbar } from "react-bootstrap";
-import logo from '../assets/Assets/logo.png';
-import icon from '../assets/Assets/cart_icon.png';
 import { Link } from "react-router-dom";
 import { ShopContext } from "../../Context/ShopContext";
 
 const Navbarr = () => {
+  const logo = "assets/logo.png";
+  const icon = "assets/cart_icon.png";
   const [menu,setMenu] = useState("shop")
   const {getTotalCartItems} = useContext(ShopContext)
   return (

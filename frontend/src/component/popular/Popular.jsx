@@ -1,25 +1,26 @@
 import React from "react";
-import "./popular.css";
-import data_product from "../assets/Assets/data";
 import Item from "../Item/Item";
-const Popular = () => {
+import "./popular.css";
+
+const Popular = ({ products }) => {
+  // تصفية المنتجات الشعبية
+  const popularProducts = products.filter(product => product.rating >= 4);
+
   return (
     <div className="popular">
-      <h1>POPULAR IN WOMEN </h1>
+      <h1>POPULAR IN WOMEN</h1>
       <hr />
       <div className="popular-item">
-        {data_product.map((item, i) => {
-          return (
-            <Item
-              key={i}
-              id={item.id}
-              name={item.name}
-              iamge={item.image}
-              new_price={item.new_price}
-              old_price={item.old_price}
-            />
-          );
-        })}
+        {popularProducts.map((item, i) => (
+          <Item
+            key={i}
+            id={item.id}
+            name={item.name}
+            image={item.image}
+            new_price={item.new_price}
+            old_price={item.old_price}
+          />
+        ))}
       </div>
     </div>
   );

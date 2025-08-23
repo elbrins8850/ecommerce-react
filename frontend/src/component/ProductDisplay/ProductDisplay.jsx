@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import "./ProductDisplay.css";
 import { Container } from "react-bootstrap";
-import star_icon from "../assets/Assets/star_icon.png";
-import star_dull_icon from "../assets/Assets/star_dull_icon.png";
 import { ShopContext } from "../../Context/ShopContext";
+const star_icon = "assets/star_icon.png";
+const star_dull_icon = "assets/star_dull_icon.png";
 const ProductDisplay = (props) => {
   const product = props.product;
   const { addToCart } = useContext(ShopContext);
